@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Make Order]">
+  <test thread-count="5" name="Test Case 2(failed)">
+    <classes>
+      <class name="com.Tc.MakeOrder.CollectionOrderWithLogOut">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="appLogout"/>
+        </methods>
+      </class> <!-- com.Tc.MakeOrder.CollectionOrderWithLogOut -->
+    </classes>
+  </test> <!-- Test Case 2(failed) -->
+</suite> <!-- Failed suite [Make Order] -->

@@ -1,0 +1,9 @@
+<suite name="tiddintom_center_app-REL01-05092023">          // isame project ka nam likh do. hamne likha hai release 01 date
+<suite-files>
+<suite-file path="./src/com.Tc.TestExecution/LoginAndSignup.xml"/>      // dot ka matlab iss project tak ka path, project ke andar src , src ke andar testExecution, isame hai Module1.xml   yani hame path diya hai                  
+<suite-file path="./src/com.Tc.TestExecution/MakeOrder.xml"/>  // isame Module2.xml ka path de diya
+<suite-file path="./src/com.Tc.TestExecution/MakeReservation.xml"/> 
+<suite-file path="./src/com.Tc.TestExecution/OrderHistory.xml"/> 
+
+</suite-files>
+</suite> 

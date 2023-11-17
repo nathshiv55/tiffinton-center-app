@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-18T15:04:16 IST" name="Default suite" finished-at="2023-09-18T15:04:55 IST" duration-ms="38630">
+    <groups>
+    </groups>
+    <test started-at="2023-09-18T15:04:16 IST" name="Default test" finished-at="2023-09-18T15:04:55 IST" duration-ms="38630">
+      <class name="com.Tc.MakeOrder.AddItemToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:16 IST" name="setUp" finished-at="2023-09-18T15:04:54 IST" duration-ms="38190" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.Tc.BasePackage.BaseInit.startUp(BaseInit.java:83)
+at com.Tc.MakeOrder.AddItemToCart.setUp(AddItemToCart.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogIn()[pri:1, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:54 IST" name="testLogIn" finished-at="2023-09-18T15:04:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.Tc.BasePackage.BaseInit.startUp(BaseInit.java:83)
+at com.Tc.MakeOrder.AddItemToCart.setUp(AddItemToCart.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="searchRestaurantMethod()[pri:2, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:54 IST" name="searchRestaurantMethod" finished-at="2023-09-18T15:04:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.Tc.BasePackage.BaseInit.startUp(BaseInit.java:83)
+at com.Tc.MakeOrder.AddItemToCart.setUp(AddItemToCart.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchRestaurantMethod -->
+        <test-method signature="searchItemMethod()[pri:3, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:54 IST" name="searchItemMethod" finished-at="2023-09-18T15:04:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.Tc.BasePackage.BaseInit.startUp(BaseInit.java:83)
+at com.Tc.MakeOrder.AddItemToCart.setUp(AddItemToCart.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemMethod -->
+        <test-method signature="OrderPlace()[pri:4, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:54 IST" name="OrderPlace" finished-at="2023-09-18T15:04:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.Tc.BasePackage.BaseInit.startUp(BaseInit.java:83)
+at com.Tc.MakeOrder.AddItemToCart.setUp(AddItemToCart.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderPlace -->
+        <test-method signature="doPayment()[pri:5, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:54 IST" name="doPayment" finished-at="2023-09-18T15:04:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.Tc.BasePackage.BaseInit.startUp(BaseInit.java:83)
+at com.Tc.MakeOrder.AddItemToCart.setUp(AddItemToCart.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPayment -->
+        <test-method signature="appLogout()[pri:6, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:54 IST" name="appLogout" finished-at="2023-09-18T15:04:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [399f3d57-6ca8-4710-942e-81070a16c032, findElement {using=id, value=com.tiffintom:id/tvSelectedCountry}]
+Capabilities {appium:app: C:\Users\Lenovo\Documents\a..., appium:appActivity: com.tiffintom.ui.base.MainA..., appium:appPackage: com.tiffintom, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Lenovo\Documents\a..., appActivity: com.tiffintom.ui.base.MainA..., appPackage: com.tiffintom, automationName: uiautomator2, deviceName: Nokia 8.1, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 11, udid: PNXID18121001695}, appium:deviceApiLevel: 30, appium:deviceManufacturer: HMD Global, appium:deviceModel: Nokia 8.1, appium:deviceName: PNXID18121001695, appium:deviceScreenDensity: 460, appium:deviceScreenSize: 1080x2246, appium:deviceUDID: PNXID18121001695, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.875, appium:platformVersion: 11, appium:statBarHeight: 86, appium:takesScreenshot: true, appium:udid: PNXID18121001695, appium:viewportRect: {height: 1948, left: 0, top: 86, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 399f3d57-6ca8-4710-942e-81070a16c032
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.Tc.BasePackage.BaseInit.startUp(BaseInit.java:83)
+at com.Tc.MakeOrder.AddItemToCart.setUp(AddItemToCart.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tc.MakeOrder.AddItemToCart@40e10ff8]" started-at="2023-09-18T15:04:55 IST" name="tearDown" finished-at="2023-09-18T15:04:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tc.MakeOrder.AddItemToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

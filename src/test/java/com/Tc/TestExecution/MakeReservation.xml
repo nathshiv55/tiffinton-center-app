@@ -1,0 +1,14 @@
+<suite name= "Make Order">
+<test name ="Test Case 1">
+<classes>
+<class name="MakeOrder.AddItemToCart"></class>
+</classes>
+</test>
+
+<test name ="Test Case 2"> 
+<classes>
+<class name="MakeOrder.CollectionOrderWithLogOut"></class>
+</classes>
+</test>
+
+</suite>

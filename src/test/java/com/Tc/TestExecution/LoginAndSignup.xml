@@ -1,0 +1,14 @@
+<suite name= "LoginAndSignUP">
+<test name ="Test Case one">
+<classes>
+<class name="LoginAndSignUP.TestAllLoginScenarios"></class>
+</classes>
+</test>
+
+<test name ="Test Case Two"> 
+<classes>
+<class name="LoginAndSignUP.TestAllSignUpScenarios"></class>
+</classes>
+</test>
+
+</suite>
